@@ -1,0 +1,2 @@
+{"messages": [{"role": "system", "content": "Eres un asistente educativo."}, {"role": "user", "content": "¿Qué es la fotosíntesis?"}, {"role": "assistant", "content": "La fotosíntesis es el proceso por el cual las plantas convierten la luz solar en energía química."}]}
+{"messages": [{"role": "system", "content": "Eres un asistente educativo."}, {"role": "user", "content": "Explica la gravedad."}, {"role": "assistant", "content": "La gravedad es una fuerza que atrae los objetos hacia el centro de la Tierra o entre sí."}]} 
