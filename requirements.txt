@@ -1,6 +1,10 @@
 # Dependencias principales del proyecto
 openai>=1.0.0  # Incluye la CLI a partir de la versión 1.x
 openai[datalib]  # Para validación de datasets y uso de la CLI
+nltk>=3.9.0  # Para métricas BLEU y procesamiento de texto
+evaluate>=0.4.0  # Para métricas ROUGE y otras de HuggingFace
+rouge_score>=0.1.2  # Necesario para ROUGE en evaluate
+absl-py>=2.2.2  # Necesario para ROUGE en evaluate
 python-dotenv>=0.19.0
 numpy>=1.21.0
 requests>=2.26.0
