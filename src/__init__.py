@@ -1,0 +1,3 @@
+"""
+OpenAI Cookbook Python package.
+"""
