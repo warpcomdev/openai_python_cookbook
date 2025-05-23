@@ -20,6 +20,18 @@ Este módulo proporciona una introducción fundamental a los modelos de lenguaje
    - Ejemplos prácticos y recomendaciones
    - Mejores prácticas
 
+4. [Estimación de Tokens](04_estimacion_tokens.md)
+   - Tokenizador online oficial de OpenAI
+   - Librería tiktoken
+   - Estimación desde el Playground o API
+   - Estimación manual rápida
+
+5. [Generación y Optimización de Prompts](05_generacion_promps.md)
+   - Fundamentos del prompt engineering
+   - Métodos de creación y optimización
+   - Técnicas efectivas de prompting
+   - Recomendaciones y recursos
+
 ## Objetivos de Aprendizaje
 
 - Comprender los conceptos fundamentales de los modelos de lenguaje
