@@ -11,7 +11,6 @@ Este módulo muestra diferentes técnicas para anonimizar datos antes de enviarl
 - 04_supresion.py: Ejemplo de supresión de columnas o filas sensibles.
 - 05_perturbacion.py: Ejemplo de perturbación/aleatorización de datos numéricos.
 - 06_hashing.py: Ejemplo de hashing de datos sensibles.
-- 07_csv_anonimizado.py: Ejemplo completo de anonimización y análisis de un CSV (como en el módulo multimodal).
 
 ## Requisitos
 

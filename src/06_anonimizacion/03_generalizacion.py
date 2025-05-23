@@ -1,5 +1,22 @@
 """
 Ejemplo de generalización de datos en un DataFrame.
+
+La generalización es una técnica de anonimización que reemplaza valores específicos
+por categorías o rangos más amplios. Por ejemplo:
+- Edad exacta -> Rango de edad (ej: "30-39")
+- Ciudad específica -> Región o país (ej: "España")
+
+Ventajas:
+- Reduce la granularidad de los datos preservando su utilidad para análisis
+- Dificulta la identificación de individuos específicos
+- Mantiene la validez estadística de los datos
+
+Desventajas:
+- Pérdida de precisión en los datos
+- Puede afectar a análisis que requieran valores exactos
+- El nivel de generalización debe equilibrar privacidad y utilidad
+
+Este script muestra cómo aplicar generalización a edades y ubicaciones en un DataFrame.
 """
 
 import pandas as pd

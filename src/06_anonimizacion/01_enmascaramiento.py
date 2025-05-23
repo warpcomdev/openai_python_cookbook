@@ -1,5 +1,23 @@
 """
 Ejemplo de enmascaramiento (masking) de datos sensibles en un DataFrame.
+
+El enmascaramiento es una técnica de anonimización que reemplaza parte de los datos 
+sensibles con caracteres especiales (como asteriscos), manteniendo visible solo una 
+porción mínima del dato original. Por ejemplo:
+- "Juan Pérez" -> "J********z"
+- "juan.perez@email.com" -> "j******************m"
+
+Ventajas:
+- Mantiene cierta legibilidad al conservar algunos caracteres originales
+- Es reversible si se guarda la información original en un lugar seguro
+- Permite identificar patrones sin exponer datos completos
+
+Desventajas:
+- No es una anonimización completa ya que mantiene parte de la información
+- Puede ser insuficiente para datos muy sensibles
+- Es posible deducir el dato original si el patrón es muy simple
+
+Este script muestra cómo aplicar enmascaramiento básico a nombres y emails en un DataFrame.
 """
 
 import pandas as pd
