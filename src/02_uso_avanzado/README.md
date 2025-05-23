@@ -4,14 +4,45 @@ Este módulo explora técnicas y ejemplos avanzados para sacar el máximo partid
 
 ## Contenido
 
-- parametros.py: Uso de parámetros avanzados (temperature, max_tokens, stop, etc.)
-- roles.py: Manejo de roles y mantenimiento del contexto en conversaciones
-- few_shot.py: Few-shot learning y prompts con ejemplos
-- manejo_errores.py: Manejo de errores y buenas prácticas
-- embeddings.py: Uso de embeddings para búsqueda semántica y visualización de vectores
-- busqueda_semantica.py: Ejemplo interactivo de búsqueda semántica usando embeddings
-- resumen.py: Resumen automático de textos
-- prompt_engineering.py: Técnicas básicas de prompt engineering
+1. [Parámetros Avanzados](01_parametros.py)
+   - Uso de temperature, max_tokens, stop, etc.
+   - Control de la generación de texto
+   - Ajuste de parámetros según el caso de uso
+
+2. [Manejo de Roles](02_roles.py)
+   - Roles system, user y assistant
+   - Mantenimiento del contexto en conversaciones
+   - Patrones de conversación efectivos
+
+3. [Few-Shot Learning](03_few_shot.py)
+   - Prompts con ejemplos
+   - Mejora de la precisión con ejemplos
+   - Patrones de few-shot efectivos
+
+4. [Manejo de Errores](04_manejo_errores.py)
+   - Errores comunes y su solución
+   - Validación de respuestas
+   - Buenas prácticas de manejo de errores
+
+5. [Embeddings](05_embeddings.py)
+   - Uso de embeddings para similitud
+   - Visualización de vectores
+   - Aplicaciones prácticas
+
+6. [Búsqueda Semántica](06_busqueda_semantica.py)
+   - Ejemplo interactivo usando embeddings
+   - Implementación de buscador semántico
+   - Visualización de resultados
+
+7. [Resumen Automático](07_resumen.py)
+   - Generación de resúmenes
+   - Control de longitud y estilo
+   - Aplicaciones prácticas
+
+8. [Prompt Engineering](08_prompt_engineering.py)
+   - Técnicas avanzadas de prompt engineering
+   - Patrones efectivos de prompts
+   - Optimización de resultados
 
 ## Objetivos de Aprendizaje
 
@@ -22,7 +53,7 @@ Este módulo explora técnicas y ejemplos avanzados para sacar el máximo partid
 - Utilizar embeddings para tareas de similitud, búsqueda semántica y visualización de vectores
 - Implementar un buscador semántico simple usando embeddings
 - Generar resúmenes automáticos
-- Aplicar técnicas básicas de prompt engineering
+- Aplicar técnicas avanzadas de prompt engineering
 
 ## Requisitos
 
