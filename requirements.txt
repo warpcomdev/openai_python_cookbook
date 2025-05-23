@@ -8,6 +8,8 @@ absl-py>=2.2.2  # Necesario para ROUGE en evaluate
 python-dotenv>=0.19.0
 numpy>=1.21.0
 requests>=2.26.0
+pymupdf>=1.26.0  # Para extracción de texto de PDFs (fitz)
+pandas>=2.2.0  # Para manejo y anonimización de CSV
 pytest==7.4.3
 black==23.11.0
 flake8==6.1.0
