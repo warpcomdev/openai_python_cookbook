@@ -22,9 +22,21 @@ OPENAI_API_KEY=tu-api-key-aquí
 
 ## Contenido del Módulo
 
-- **configuracion.py**: Configuración del entorno y verificación de la API key.
-- **primer_llamada.py**: Ejemplo básico de uso del endpoint completions.
-- **chat_terminal.py**: Chat interactivo en terminal usando el endpoint chat.completions.
+1. [Configuración del Entorno](01_configuracion.py)
+   - Configuración inicial y verificación de la API key
+   - Manejo de variables de entorno
+
+2. [Primera Llamada](02_primera_llamada.py)
+   - Ejemplo básico de uso del endpoint completions
+   - Generación de texto simple
+
+3. [Chat en Terminal](03_chat_terminal.py)
+   - Chat interactivo usando el endpoint chat.completions
+   - Manejo de contexto conversacional
+
+4. [Ejemplo de Prompt](04_ejemplo_prompt.py)
+   - Ejemplos de diferentes tipos de prompts
+   - Técnicas básicas de prompt engineering
 
 ## Diferencia entre `completions` y `chat.completions`
 
@@ -57,7 +69,7 @@ OPENAI_API_KEY=tu-api-key-aquí
 
 ## Ejercicios Prácticos
 
-1. Modifica el prompt en `primer_llamada.py` para generar diferentes tipos de respuestas.
+1. Modifica el prompt en `02_primera_llamada.py` para generar diferentes tipos de respuestas.
 2. Experimenta con diferentes valores de `temperature` para ver cómo afecta a las respuestas.
 3. Prueba el chat interactivo y cambia el prompt del sistema para ver cómo cambia el comportamiento del asistente.
 
